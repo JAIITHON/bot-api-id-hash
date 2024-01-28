@@ -1,1 +1,1 @@
-php mody.php
+php mody
