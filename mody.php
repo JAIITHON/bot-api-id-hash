@@ -50,8 +50,8 @@ $upq = file_get_contents("up.php");
 $skor = file_get_contents("skor.php");
 $channel = file_get_contents("link.php");
 $link = file_get_contents("link2.php");
-$ch = "source_ze";
-$admin = "6581896306";
+$ch = "Abo_Hadieda";
+$admin = "5761883504";
 $join = file_get_contents("https://api.telegram.org/bot".API_KEY."/getChatMember?chat_id=$ch&user_id=".$from_id);
 if($message && (strpos($join,'"status":"left"') or strpos($join,'"Bad Request: USER_ID_INVALID"') or strpos($join,'"status":"kicked"'))!== false){
 bot('sendMessage', [
