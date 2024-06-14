@@ -5,8 +5,8 @@ set_time_limit(0);
 error_reporting(0);
 ob_implicit_flush(1);
 #====#
-$token = "6531465372:AAFzALO4pRlOCyGq1Mkx6pMUzEuL4gspBBI";# توكنك تمام
-$tokens = "6531465372:AAFzALO4pRlOCyGq1Mkx6pMUzEuL4gspBBI"; #توكنك
+$token = "6902599540:AAE1Tbr_-yVbsylHT39F5OHJr1w3inWnMsc";# توكنك تمام
+$tokens = "6902599540:AAE1Tbr_-yVbsylHT39F5OHJr1w3inWnMsc"; #توكنك
 #====#
 define('API_KEY',$token);
 echo "setWebhook ~> <a href=\"https://api.telegram.org/bot".API_KEY."/setwebhook?url=".$_SERVER['SERVER_NAME']."".$_SERVER['SCRIPT_NAME']."\">https://api.telegram.org/bot".API_KEY."/setwebhook?url=".$_SERVER['SERVER_NAME']."".$_SERVER['SCRIPT_NAME']."</a>";
